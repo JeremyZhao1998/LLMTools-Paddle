@@ -1,0 +1,11 @@
+python main.py \
+--mode 'eval' \
+--model_path <path/to/your/model> \
+--data_root <path/to/your/data/root> \
+--output_path './outputs/eval_calendar/llama_dateset' \
+--dataset_name 'dateset' \
+--max_input_len 64 \
+--max_output_len 32 \
+--batch_size 16 \
+--print_freq 100 \
+--num_workers 4 \
